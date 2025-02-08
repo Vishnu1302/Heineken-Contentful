@@ -67,6 +67,9 @@ export default function Home() {
     return (
         <div style={{ padding: "20px", maxWidth: "800px", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
             {/* Merge Section */}
+            <h2>This is used to merge content between environments in a space.Run merge first</h2>
+            <h2>If change set is created successfully then Apply Merge</h2>
+            <h3>Try to understand CDA token and CMA token difference before running merges</h3>
             <div>
                 <h2>Run Merge</h2>
                 <TextInput placeholder="CDA Token" value={cdaToken} onChange={(e) => setCdaToken(e.target.value)} />
